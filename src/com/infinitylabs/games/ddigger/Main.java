@@ -8,6 +8,7 @@ package com.infinitylabs.games.ddigger;
 /**
  *
  * @author Levex
+ * @test
  */
 public class Main {
 
