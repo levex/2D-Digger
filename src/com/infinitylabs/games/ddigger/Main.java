@@ -5,6 +5,10 @@
 
 package com.infinitylabs.games.ddigger;
 
+import org.newdawn.slick.AppGameContainer;
+import org.newdawn.slick.Color;
+import org.newdawn.slick.SlickException;
+
 /**
  *
  * @author Levex
@@ -15,8 +19,11 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws SlickException {
+        AppGameContainer app = new AppGameContainer(new Game());
+        app.setDisplayMode(640, 480, false);
+        //app.
+        app.start();
     }
 
 }
